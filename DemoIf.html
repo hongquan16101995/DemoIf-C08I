@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   //if đơn
+   let a = 5
+   if (a < 4) {
+       alert("Hello")
+   }
+   // if else
+   if (a > 4) {
+       alert("Hello")
+   } else {
+       alert("GoodBye")
+   }
+   //if else if
+   let b = 3
+   if (b > 10) {
+       alert("Hi")
+   } else if (b > 4) {
+       alert("Hello")
+   } else {
+       alert("GoodBye")
+   }
+   //if lồng nhau
+   let c = +prompt("Nhập vào 1 só: ")
+   if (c > 100) {
+       if (c % 2 === 0) {
+           alert("C là số chẵn lớn hơn 100")
+       } else {
+           alert("C là số lẻ lớn hơn 100")
+       }
+   } else if (c % 2 === 0) {
+       alert("C là số chẵn nhỏ hơn 100")
+   } else {
+       alert("C là số lẻ nhỏ hơn 100")
+   }
+
+   // let b = parseInt(prompt("Nhập vào 1 số: "))
+   // switch (b) {
+   //     case 1:
+   //         alert("Hi")
+   //         break
+   //     case 2:
+   //         alert("Hello")
+   //         break
+   //     case 3:
+   //         alert("GoodBye")
+   //         break
+   //     default:
+   //         alert("Không phải là sô")
+   // }
+   //
+   // if (b === 5) {
+   //     alert("abc")
+   // }
+   // if (b > 5) {
+   //     alert("xyz")
+   // }
+   // if (b !== 5) {
+   //     alert("CodeGym")
+   // }
+
+   // let month = parseInt(prompt("Nhập vào 1 tháng bất kỳ: "))
+   // // if (month === 1 || month === 3) {
+   // //     alert("tháng 1 có 31 ngày")
+   // // }
+   //
+   // switch (month) {
+   //     case 1:
+   //     case 3:
+   //         alert("tháng " + month + " có 31 ngày")
+   //         break
+   //     case 2:
+   //         alert("tháng 2 có 28 hoặc 29 ngày")
+   //         break
+   //     case 4:
+   //         alert("tháng " + month + " có 30 ngày")
+   //         break
+   //     default:
+   //         alert("Giá trị nhập vào không phải là 1 tháng trong năm")
+   // }
+</script>
+</body>
+</html>
+Khác nhau giữa
+if...else: so sánh tất cả
+switch..case: chỉ so sánh bằng
